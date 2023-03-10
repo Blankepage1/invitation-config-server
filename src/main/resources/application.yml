@@ -1,0 +1,12 @@
+server:
+  port: 8888
+#spring.cloud.config.server.git.uri: file:///opt/workspace/invitation-config
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Blankepage1/invitation-config.git
+          username: blankepage1@gmail.com
+          password: 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
+          default-label: main
